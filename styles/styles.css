@@ -60,7 +60,7 @@
 }
 
 body {
-  font-size: var(--body-font-size-m);
+  font-size: purple;
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
