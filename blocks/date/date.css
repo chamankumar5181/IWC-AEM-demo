@@ -4,8 +4,8 @@
 }
 
 .datetext > div:first-child {
-  background: rgb(0, 0, 0);
-  border: 0px;
+  background: var(--text-color);
+  border: 0;
   height: 1px;
   margin: auto;
   width: 140px;
@@ -19,7 +19,7 @@
   letter-spacing: 0.015em;
   font-size: 0.875rem;
   line-height: 1.7;
-  color: rgb(102, 102, 102);
+  color: var(--date-color);
   font-weight: 300;
   margin-top: 60px;
 }
