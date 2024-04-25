@@ -49,8 +49,17 @@
   
 
 .imagetexttwo > div:nth-child(2) > :last-child {
+    font-family: Gotham, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.015em;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: var(--date-color);
+    font-weight: 300;
     width: calc(49.995% - 15px);
     flex: 0 0 auto;
-    margin-inline-end: 0;
 }
   
