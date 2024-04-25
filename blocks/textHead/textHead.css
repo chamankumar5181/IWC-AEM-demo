@@ -6,7 +6,7 @@
 .headingtext > div:first-child {
     margin-bottom: 25px;
     font-size: 2.25rem;
-    font-family: Gotham, Arial;
+    font-family: Gotham, Arial, sans-serif;
     font-style: normal;
     letter-spacing: 1.5px;
     font-weight: 500;
@@ -14,7 +14,7 @@
 }
 
 .headingtext > div:not(:first-child) {
-    font-family: Gotham, Arial;
+    font-family: Gotham, Arial, sans-serif;
     font-style: normal;
     font-variant: normal;
     text-transform: none;

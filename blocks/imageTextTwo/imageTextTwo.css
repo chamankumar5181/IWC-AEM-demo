@@ -14,7 +14,7 @@
     margin-bottom: 40px;
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
-    font-family: Gotham, Arial;
+    font-family: Gotham, Arial, sans-serif;
     font-style: normal;
     letter-spacing: 1.5px;
     font-weight: 510;
@@ -32,7 +32,7 @@
 }
 
 .imagetexttwo > div:nth-child(2) > :first-child {
-    font-family: Gotham, Arial;
+    font-family: Gotham, Arial, sans-serif;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
