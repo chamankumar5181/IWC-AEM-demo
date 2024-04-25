@@ -1,0 +1,25 @@
+.datetext {
+  width: 100%;
+  text-align: center;
+}
+
+.datetext > div:first-child {
+  background: var(--text-color);
+  border: 0;
+  height: 1px;
+  margin: auto;
+  width: 140px;
+}
+
+.datetext > div:last-child {
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.015em;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--date-color);
+  font-weight: 300;
+  margin-top: 60px;
+}

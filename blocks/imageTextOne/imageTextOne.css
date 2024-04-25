@@ -1,0 +1,40 @@
+.imagetextone {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 0 42px;
+    margin: 0 auto 60px;
+    max-width: 1024px;
+}
+
+.imagetextone > div:first-child {
+    text-transform: uppercase;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    font-family: Gotham, Arial, sans-serif;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    font-weight: 510;
+    font-size: 1.5rem;
+}
+
+.imagetextone > div:nth-child(2) {
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.015em;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: var(--date-color);
+    font-weight: 300;
+}
+
+.imagetextone > div:nth-child(3) {
+    width: 100%;
+    margin-top: 30px;
+}
+  
