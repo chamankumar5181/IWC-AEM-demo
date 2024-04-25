@@ -7,6 +7,12 @@
     max-width: 1024px;
 }
 
+.imagetextone img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
 .imagetextone > div:first-child {
     text-transform: uppercase;
     line-height: 1.3;
